@@ -87,7 +87,7 @@ theme:
   icon:
     repo: fontawesome/brands/github #右上角图标
 
-  logo: assets/images/logo.png
+  logo: assets/images/logo.PNG
 
 extra_css:
   - extra.css
