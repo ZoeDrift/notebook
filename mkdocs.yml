@@ -22,19 +22,22 @@ nav:
           - 自然地理学: 
               - 林舟: blog/大一/自然地理note/林舟.md
               - 土壤: blog/大一/自然地理note/土壤.md
-              - 生物: blog/大一/自然地理note/生物.md
+              - 生物: blog/大一/自然地理note/第七章（生物）.md
+              - 历年卷: blog/大一/自然地理note/历年1.md
           #- 地理信息科学导论: year1/linear_algebra
           #- 微积分: year1/calculus.md
       #- 大二:
           #- 机器学习: year2/ml.md
-  #- 实用工具: 
-      #- latex: 1.md
-      #- markdown: 2.md
-      #- git: 3.md
-      #- web开发: 
-          #- html、css、js: 11.md
-          #- vue: 22.md
-      #- mkdocs: 5.md
+  - cs:
+      - 一些有用的资料: blog/computerscience/cs.md
+  - 实用工具: 
+      - latex: blog/实用工具/latex.md
+      - markdown: blog/实用工具/markdown.md
+      - git: blog/实用工具/git.md
+      - web开发: 
+          - html、css、js: blog/实用工具/web开发/三件套.md
+          - vue: blog/实用工具/web开发/vue.md
+      - mkdocs: blog/实用工具/mkdocs.md
 
   
 
@@ -89,5 +92,99 @@ theme:
 
   logo: assets/images/logo.PNG
 
-extra_css:
-  - extra.css
+#extra_css:
+  #- extra.css
+
+extra:
+  generator: false # 页脚不显示made by...
+
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ZoeDrift
+
+    - icon: fontawesome/regular/envelope
+      link: mailto:<2991146639@qq.com>
+
+plugins:
+  - search #搜索配置
+  - git-committers:
+      enabled: !ENV [git-committers, true]
+      repository: ZoeDrift/notebook
+      branch: main
+      exclude:
+        - index.md
+        - tag.md
+        - liuyanban.md
+        - blog/posts/update.md
+        - blog/posts/wkw.md
+        - about/link.md
+  - git-revision-date-localized:
+      enabled: !ENV [git-revision-date-localized, false]
+      type: iso_date
+      enable_creation_date: false
+      exclude:
+        - index.md
+        - tag.md
+        - liuyanban.md
+        - blog/posts/update.md
+        - blog/posts/wkw.md
+        - about/link.md
+        - websitebeauty/linktech.md
+  #- blog: #博客配置
+      #post_date_format: full #时间
+      #draft: true
+      #draft_if_future_date: true #自动将具有未来日期的帖子标记为草稿
+      #post_readtime: true
+      #post_readtime_words_per_minute: 265 #计算帖子的阅读时间时读者每分钟预计阅读的字数
+      #post_url_format: "{date}/{slug}"
+      # categories_slugify: !!python/object/apply:pymdownx.slugs.slugify
+      #   kwds:
+      #     case: lower
+      #pagination_url_format: "page/{page}"
+      #authors_file: "{blog}/.authors.yml" #作者信息
+  #- tags
+
+markdown_extensions: #详见https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/ 和 https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown/
+  - abbr
+  - attr_list
+  - admonition
+  - def_list
+  - footnotes
+  - md_in_html
+  # - meta # 支持Markdown文件上方自定义标题标签等
+  - pymdownx.caret
+  - pymdownx.betterem
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.snippets
+  - pymdownx.smartsymbols
+  - pymdownx.tilde
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format:
+            !!python/name:pymdownx.superfences.fence_code_format # 代码块高亮插件
+  - pymdownx.arithmatex: # latex支持
+      generic: true
+  - toc:
+      permalink: true # 固定标题位置为当前位置
+  - pymdownx.highlight: # 代码块高亮
+      anchor_linenums: true
+      linenums: true # 显示行号
+      auto_title: false # true-显示编程语言名称
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+
+extra_javascript:
+  - https://polyfill.io/v3/polyfill.min.js?features=es6 #Latex支持
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js #Latex支持
