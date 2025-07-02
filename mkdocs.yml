@@ -105,6 +105,8 @@ extra:
     - icon: fontawesome/regular/envelope
       link: mailto:<2991146639@qq.com>
 
+  math: true
+
 plugins:
   - search #搜索配置
   - git-committers:
