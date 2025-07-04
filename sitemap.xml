@@ -2,82 +2,118 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://zoedrift.github.io/notebook/</loc>
-         <lastmod>2025-07-02</lastmod>
+         <lastmod>2025-07-04</lastmod>
     </url>
     <url>
          <loc>https://zoedrift.github.io/notebook/blog/</loc>
-         <lastmod>2025-07-02</lastmod>
+         <lastmod>2025-07-04</lastmod>
     </url>
     <url>
          <loc>https://zoedrift.github.io/notebook/blog/computerscience/cs/</loc>
-         <lastmod>2025-07-02</lastmod>
+         <lastmod>2025-07-04</lastmod>
     </url>
     <url>
-         <loc>https://zoedrift.github.io/notebook/blog/%E5%A4%A7%E4%B8%80/AIaNote/%E5%B0%8F%E6%B5%8B/</loc>
-         <lastmod>2025-07-02</lastmod>
+         <loc>https://zoedrift.github.io/notebook/blog/tool/git/</loc>
+         <lastmod>2025-07-04</lastmod>
     </url>
     <url>
-         <loc>https://zoedrift.github.io/notebook/blog/%E5%A4%A7%E4%B8%80/AIaNote/%E6%9C%9F%E6%9C%AB/</loc>
-         <lastmod>2025-07-02</lastmod>
+         <loc>https://zoedrift.github.io/notebook/blog/tool/latex/</loc>
+         <lastmod>2025-07-04</lastmod>
     </url>
     <url>
-         <loc>https://zoedrift.github.io/notebook/blog/%E5%A4%A7%E4%B8%80/PythonNote/code/</loc>
-         <lastmod>2025-07-02</lastmod>
+         <loc>https://zoedrift.github.io/notebook/blog/tool/markdown/</loc>
+         <lastmod>2025-07-04</lastmod>
     </url>
     <url>
-         <loc>https://zoedrift.github.io/notebook/blog/%E5%A4%A7%E4%B8%80/PythonNote/error/</loc>
-         <lastmod>2025-07-02</lastmod>
+         <loc>https://zoedrift.github.io/notebook/blog/tool/mkdocs/</loc>
+         <lastmod>2025-07-04</lastmod>
     </url>
     <url>
-         <loc>https://zoedrift.github.io/notebook/blog/%E5%A4%A7%E4%B8%80/PythonNote/file/</loc>
-         <lastmod>2025-07-02</lastmod>
+         <loc>https://zoedrift.github.io/notebook/blog/tool/web%E5%BC%80%E5%8F%91/vue/</loc>
+         <lastmod>2025-07-04</lastmod>
     </url>
     <url>
-         <loc>https://zoedrift.github.io/notebook/blog/%E5%A4%A7%E4%B8%80/PythonNote/oop/</loc>
-         <lastmod>2025-07-02</lastmod>
+         <loc>https://zoedrift.github.io/notebook/blog/tool/web%E5%BC%80%E5%8F%91/%E4%B8%89%E4%BB%B6%E5%A5%97/</loc>
+         <lastmod>2025-07-04</lastmod>
     </url>
     <url>
-         <loc>https://zoedrift.github.io/notebook/blog/%E5%A4%A7%E4%B8%80/PythonNote/%E7%9F%A5%E8%AF%86%E7%82%B9/</loc>
-         <lastmod>2025-07-02</lastmod>
+         <loc>https://zoedrift.github.io/notebook/blog/year1/AIaNote/%E5%B0%8F%E6%B5%8B/</loc>
+         <lastmod>2025-07-04</lastmod>
     </url>
     <url>
-         <loc>https://zoedrift.github.io/notebook/blog/%E5%A4%A7%E4%B8%80/%E8%87%AA%E7%84%B6%E5%9C%B0%E7%90%86note/%E5%8E%86%E5%B9%B41/</loc>
-         <lastmod>2025-07-02</lastmod>
+         <loc>https://zoedrift.github.io/notebook/blog/year1/AIaNote/%E6%9C%9F%E6%9C%AB/</loc>
+         <lastmod>2025-07-04</lastmod>
     </url>
     <url>
-         <loc>https://zoedrift.github.io/notebook/blog/%E5%A4%A7%E4%B8%80/%E8%87%AA%E7%84%B6%E5%9C%B0%E7%90%86note/%E5%9C%9F%E5%A3%A4/</loc>
-         <lastmod>2025-07-02</lastmod>
+         <loc>https://zoedrift.github.io/notebook/blog/year1/PythonNote/code/</loc>
+         <lastmod>2025-07-04</lastmod>
     </url>
     <url>
-         <loc>https://zoedrift.github.io/notebook/blog/%E5%A4%A7%E4%B8%80/%E8%87%AA%E7%84%B6%E5%9C%B0%E7%90%86note/%E6%9E%97%E8%88%9F/</loc>
-         <lastmod>2025-07-02</lastmod>
+         <loc>https://zoedrift.github.io/notebook/blog/year1/PythonNote/error/</loc>
+         <lastmod>2025-07-04</lastmod>
     </url>
     <url>
-         <loc>https://zoedrift.github.io/notebook/blog/%E5%A4%A7%E4%B8%80/%E8%87%AA%E7%84%B6%E5%9C%B0%E7%90%86note/%E7%AC%AC%E4%B8%83%E7%AB%A0%EF%BC%88%E7%94%9F%E7%89%A9%EF%BC%89/</loc>
-         <lastmod>2025-07-02</lastmod>
+         <loc>https://zoedrift.github.io/notebook/blog/year1/PythonNote/file/</loc>
+         <lastmod>2025-07-04</lastmod>
     </url>
     <url>
-         <loc>https://zoedrift.github.io/notebook/blog/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/git/</loc>
-         <lastmod>2025-07-02</lastmod>
+         <loc>https://zoedrift.github.io/notebook/blog/year1/PythonNote/oop/</loc>
+         <lastmod>2025-07-04</lastmod>
     </url>
     <url>
-         <loc>https://zoedrift.github.io/notebook/blog/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/latex/</loc>
-         <lastmod>2025-07-02</lastmod>
+         <loc>https://zoedrift.github.io/notebook/blog/year1/PythonNote/%E7%9F%A5%E8%AF%86%E7%82%B9/</loc>
+         <lastmod>2025-07-04</lastmod>
     </url>
     <url>
-         <loc>https://zoedrift.github.io/notebook/blog/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/markdown/</loc>
-         <lastmod>2025-07-02</lastmod>
+         <loc>https://zoedrift.github.io/notebook/blog/year1/c/cnote/</loc>
+         <lastmod>2025-07-04</lastmod>
     </url>
     <url>
-         <loc>https://zoedrift.github.io/notebook/blog/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/mkdocs/</loc>
-         <lastmod>2025-07-02</lastmod>
+         <loc>https://zoedrift.github.io/notebook/blog/year1/gis_intro/classimformation/</loc>
+         <lastmod>2025-07-04</lastmod>
     </url>
     <url>
-         <loc>https://zoedrift.github.io/notebook/blog/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/web%E5%BC%80%E5%8F%91/vue/</loc>
-         <lastmod>2025-07-02</lastmod>
+         <loc>https://zoedrift.github.io/notebook/blog/year1/gis_intro/gisnote/</loc>
+         <lastmod>2025-07-04</lastmod>
     </url>
     <url>
-         <loc>https://zoedrift.github.io/notebook/blog/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/web%E5%BC%80%E5%8F%91/%E4%B8%89%E4%BB%B6%E5%A5%97/</loc>
-         <lastmod>2025-07-02</lastmod>
+         <loc>https://zoedrift.github.io/notebook/blog/year1/gis_intro/labnote/</loc>
+         <lastmod>2025-07-04</lastmod>
+    </url>
+    <url>
+         <loc>https://zoedrift.github.io/notebook/blog/year1/%E5%9C%B0%E7%90%83%E7%A7%91%E5%AD%A6%E5%AF%BC%E8%AE%BA/%E8%AF%BE%E7%A8%8B%E4%BF%A1%E6%81%AF/</loc>
+         <lastmod>2025-07-04</lastmod>
+    </url>
+    <url>
+         <loc>https://zoedrift.github.io/notebook/blog/year1/%E5%9C%B0%E7%90%83%E7%A7%91%E5%AD%A6%E5%AF%BC%E8%AE%BA/dkdnote/%E9%87%8D%E7%82%B9/</loc>
+         <lastmod>2025-07-04</lastmod>
+    </url>
+    <url>
+         <loc>https://zoedrift.github.io/notebook/blog/year1/%E5%9C%B0%E7%90%86%E8%AE%A4%E7%9F%A5%E5%AE%9E%E4%B9%A0/1/</loc>
+         <lastmod>2025-07-04</lastmod>
+    </url>
+    <url>
+         <loc>https://zoedrift.github.io/notebook/blog/year1/%E8%87%AA%E7%84%B6%E5%9C%B0%E7%90%86note/%E5%8E%86%E5%B9%B41/</loc>
+         <lastmod>2025-07-04</lastmod>
+    </url>
+    <url>
+         <loc>https://zoedrift.github.io/notebook/blog/year1/%E8%87%AA%E7%84%B6%E5%9C%B0%E7%90%86note/%E5%9C%9F%E5%A3%A4/</loc>
+         <lastmod>2025-07-04</lastmod>
+    </url>
+    <url>
+         <loc>https://zoedrift.github.io/notebook/blog/year1/%E8%87%AA%E7%84%B6%E5%9C%B0%E7%90%86note/%E6%9E%97%E8%88%9F/</loc>
+         <lastmod>2025-07-04</lastmod>
+    </url>
+    <url>
+         <loc>https://zoedrift.github.io/notebook/blog/year1/%E8%87%AA%E7%84%B6%E5%9C%B0%E7%90%86note/%E7%AC%AC%E4%B8%83%E7%AB%A0%EF%BC%88%E7%94%9F%E7%89%A9%EF%BC%89/</loc>
+         <lastmod>2025-07-04</lastmod>
+    </url>
+    <url>
+         <loc>https://zoedrift.github.io/notebook/blog/year2/oop/%E5%89%8D%E8%A8%80/</loc>
+         <lastmod>2025-07-04</lastmod>
+    </url>
+    <url>
+         <loc>https://zoedrift.github.io/notebook/blog/year2/%E6%A6%82%E7%BB%9F/%E5%89%8D%E8%A8%80/</loc>
+         <lastmod>2025-07-04</lastmod>
     </url>
 </urlset>
