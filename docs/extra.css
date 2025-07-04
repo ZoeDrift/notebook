@@ -1,4 +1,18 @@
-.md-footer {
+/* .md-footer {
   display: none !important;
+} */
+
+/* 自定义页脚样式
+  减小页脚区域的垂直内边距 (padding)，从而降低其整体高度
+*/
+.md-footer {
+  /* 你也可以在这里给页脚设置一个固定的背景色，如果需要的话 */
+  /* background-color: #486480;  */
 }
 
+/* 主要通过修改这个元素的内边距来调整高度 */
+.md-footer-nav,
+.md-footer-meta {
+  padding-top: 0.25rem;    /* 减小上边距 */
+  padding-bottom: 0.25rem; /* 减小下边距 */
+}

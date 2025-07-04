@@ -8,36 +8,49 @@ nav:
   - 首页: index.md
   - 课程笔记:
       - 大一:
-          #- C程序设计基础及实验: 
+          - C程序设计基础及实验: 
+              - 课程信息: blog/year1/c/cnote.md
           - 人工智能基础(A): 
-              - 期末复习笔记: blog/大一/AIaNote/期末.md
-              - 小测: blog/大一/AIaNote/小测.md
+              - 期末复习笔记: blog/year1/AIaNote/期末.md
+              - 小测: blog/year1/AIaNote/小测.md
           - Python基础: 
-              - 知识点: blog/大一/PythonNote/知识点.md
-              - 理论题: blog/大一/PythonNote/error.md
-              - 编程题: blog/大一/PythonNote/code.md
-              - 文件: blog/大一/PythonNote/file.md
-              - oop: blog/大一/PythonNote/oop.md
-          #- 地球科学导论: year1/earth_science.md
+              - 知识点: blog/year1/PythonNote/知识点.md
+              - 理论题: blog/year1/PythonNote/error.md
+              - 编程题: blog/year1/PythonNote/code.md
+              - 文件: blog/year1/PythonNote/file.md
+              - oop: blog/year1/PythonNote/oop.md
+          - 地球科学导论: 
+              - 课程信息: blog/year1/地球科学导论/课程信息.md
+              - 笔记: blog/year1/地球科学导论/dkdnote/重点.md
+          - 地理信息科学导论: 
+              - 课程信息: blog/year1/gis_intro/classimformation.md
+              - 梗概: blog/year1/gis_intro/gisnote.md
+              - 实验笔记: blog/year1/gis_intro/labnote.md
           - 自然地理学: 
-              - 林舟: blog/大一/自然地理note/林舟.md
-              - 土壤: blog/大一/自然地理note/土壤.md
-              - 生物: blog/大一/自然地理note/第七章（生物）.md
-              - 历年卷: blog/大一/自然地理note/历年1.md
-          #- 地理信息科学导论: year1/linear_algebra
+              - 林舟: blog/year1/自然地理note/林舟.md
+              - 土壤: blog/year1/自然地理note/土壤.md
+              - 生物: blog/year1/自然地理note/第七章（生物）.md
+              - 历年卷: blog/year1/自然地理note/历年1.md
+          - 地理认知实习:
+              - 西北干旱半干旱区地理: blog/year1/地理认知实习/1.md
+          
           #- 微积分: year1/calculus.md
-      #- 大二:
+      - 大二:
+          - 面向对象程序设计:
+              - 课程信息: blog/year2/oop/前言.md
+          - 概率论与数理统计:
+              - 课程信息: blog/year2/概统/前言.md
           #- 机器学习: year2/ml.md
   - cs:
       - 一些有用的资料: blog/computerscience/cs.md
   - 实用工具: 
-      - latex: blog/实用工具/latex.md
-      - markdown: blog/实用工具/markdown.md
-      - git: blog/实用工具/git.md
+      - latex: blog/tool/latex.md
+      - markdown: blog/tool/markdown.md
+      - git: blog/tool/git.md
       - web开发: 
-          - html、css、js: blog/实用工具/web开发/三件套.md
-          - vue: blog/实用工具/web开发/vue.md
-      - mkdocs: blog/实用工具/mkdocs.md
+          - html、css、js: blog/tool/web开发/三件套.md
+          - vue: blog/tool/web开发/vue.md
+      - mkdocs: blog/tool/mkdocs.md
 
   
 
@@ -83,8 +96,8 @@ theme:
     - content.tabs.link
     - content.tooltips
     - content.code.copy #代码复制
-    - content.action.edit
-    - content.action.view
+    #- content.action.edit
+    #- content.action.view
     - content.code.annotate
     
   icon:
@@ -92,8 +105,8 @@ theme:
 
   logo: assets/images/logo.PNG
 
-#extra_css:
-  #- extra.css
+extra_css:
+  - extra.css
 
 extra:
   generator: false # 页脚不显示made by...
@@ -109,17 +122,17 @@ extra:
 
 plugins:
   - search #搜索配置
-  - git-committers:
-      enabled: !ENV [git-committers, true]
-      repository: ZoeDrift/notebook
-      branch: main
-      exclude:
-        - index.md
-        - tag.md
-        - liuyanban.md
-        - blog/posts/update.md
-        - blog/posts/wkw.md
-        - about/link.md
+  # - git-committers:
+  #     enabled: !ENV [git-committers, true]
+  #     repository: ZoeDrift/notebook
+  #     branch: main
+  #     exclude:
+  #       - index.md
+  #       - tag.md
+  #       - liuyanban.md
+  #       - blog/posts/update.md
+  #       - blog/posts/wkw.md
+  #       - about/link.md
   - git-revision-date-localized:
       enabled: !ENV [git-revision-date-localized, false]
       type: iso_date
