@@ -11,9 +11,15 @@ nav:
           - C程序设计基础及实验: 
               - 课程信息: blog/year1/c/cnote.md
           - 人工智能基础(A): 
-              - 期末复习笔记: blog/year1/AIaNote/期末.md
+              - 课程信息: blog/year1/AIaNote/课程信息.md
+              - 期末复习笔记: 
+                  - 第一篇: blog/year1/AIaNote/一.md
+                  - 第二篇: blog/year1/AIaNote/二.md
+                  - 第三篇: blog/year1/AIaNote/三.md
+                  - 第四篇: blog/year1/AIaNote/四.md
               - 小测: blog/year1/AIaNote/小测.md
           - Python基础: 
+              - 课程信息: blog/year1/PythonNote/课程信息.md
               - 知识点: blog/year1/PythonNote/知识点.md
               - 理论题: blog/year1/PythonNote/error.md
               - 编程题: blog/year1/PythonNote/code.md
@@ -27,11 +33,13 @@ nav:
               - 梗概: blog/year1/gis_intro/gisnote.md
               - 实验笔记: blog/year1/gis_intro/labnote.md
           - 自然地理学: 
+              - 课程信息: blog/year1/自然地理note/课程信息.md
               - 林舟: blog/year1/自然地理note/林舟.md
               - 土壤: blog/year1/自然地理note/土壤.md
               - 生物: blog/year1/自然地理note/第七章（生物）.md
               - 历年卷: blog/year1/自然地理note/历年1.md
           - 地理认知实习:
+              - 课程信息: blog/year1/地理认知实习/课程信息.md
               - 西北干旱半干旱区地理: blog/year1/地理认知实习/1.md
           
           #- 微积分: year1/calculus.md
