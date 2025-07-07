@@ -56,11 +56,14 @@ nav:
       - latex: blog/tool/latex.md
       - markdown: blog/tool/markdown.md
       - git: blog/tool/git.md
+
+      - mkdocs: blog/tool/mkdocs.md
       - web开发: 
           - html、css、js: blog/tool/web开发/三件套.md
           - vue: blog/tool/web开发/vue.md
-      - mkdocs: blog/tool/mkdocs.md
 
+  - 杂项:
+      - 美食: blog/杂项/tzy.md
   
 
 theme:
