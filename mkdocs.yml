@@ -7,6 +7,8 @@ site_author: Zoe
 nav:
   - 首页: index.md
   - 课程笔记:
+      - gis:
+          - gis相关: blog/gis/gisnote.md
       - 大一:
           - C程序设计基础及实验: 
               - 课程信息: blog/year1/c/cnote.md
@@ -40,8 +42,8 @@ nav:
               - 历年卷: blog/year1/自然地理note/历年1.md
           - 地理认知实习:
               - 课程信息: blog/year1/地理认知实习/课程信息.md
-              - zdg西北干旱半干旱区地理: blog/year1/地理认知实习/1.md
-              - fx中国干旱半干旱地区自然地理认知实习--北天山与准噶尔盆地: blog/year1/地理认知实习/fx.md
+              - 西北干旱半干旱区地理: blog/year1/地理认知实习/1.md
+              - 中国干旱半干旱地区自然地理认知实习--北天山与准噶尔盆地: blog/year1/地理认知实习/fx.md
           
           #- 微积分: year1/calculus.md
       - 大二:
@@ -49,6 +51,18 @@ nav:
               - 课程信息: blog/year2/oop/前言.md
           - 概率论与数理统计:
               - 课程信息: blog/year2/概统/前言.md
+          - 地图学:
+              - 课程信息: blog/year2/地图学/课程信息.md
+          - 人文地理学:
+              - 课程信息: blog/year2/人文地理/课程信息.md
+          - 现代气候学基础:
+              - 课程信息: blog/year2/现代气候学基础/课程信息.md
+          - 大学物理(乙):
+              - 课程信息: blog/year2/physics/课程信息.md
+          - 大学物理实验:
+              - 课程信息: blog/year2/phylab/课程信息.md
+          - 马克思主义基本原理:
+              - 课程信息: blog/year2/马原/课程信息.md
           #- 机器学习: year2/ml.md
   - cs:
       - 一些有用的资料: blog/computerscience/cs.md
