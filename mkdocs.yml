@@ -77,7 +77,8 @@ nav:
           - vue: blog/tool/web开发/vue.md
 
   - 杂项:
-      - 美食: blog/杂项/tzy.md
+      - 别看: blog/sundries/bz.md
+      - 猎奇: blog/sundries/rubbish.md
   
 
 theme:
