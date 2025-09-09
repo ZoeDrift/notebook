@@ -232,3 +232,16 @@ markdown_extensions: #详见https://squidfunk.github.io/mkdocs-material/setup/ex
 extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6 #Latex支持
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js #Latex支持
+
+site_name: 我的笔记
+
+plugins:
+  - search
+  - encryptcontent:
+      global_password: null
+      title_prefix: "🔐"
+      summary: "前面的区域以后再来探索吧"
+      placeholder: "请输入密码🔑"
+      encryption_failure_message: "写好了再发"
+      decryption_failure_message: "密码错误，请再试一次！"
+      password_button: true
