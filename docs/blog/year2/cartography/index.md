@@ -5,6 +5,6 @@
 
 [2023-2024冬地图学回忆卷（98：Asophir](https://www.cc98.org/topic/5798451){:target = "_blank"}
 
-[2022冬地图学回忆卷（98：考槃）](【地球科学学院】 https://www.cc98.org/topic/5508263){:target = "_blank"}
+[2022冬地图学回忆卷（98：考槃）](https://www.cc98.org/topic/5508263){:target = "_blank"}
 
 [2022-2023秋冬学期地图学回忆卷（98：行溪子）](https://www.cc98.org/topic/5508259){:target = "_blank"}

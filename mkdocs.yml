@@ -11,58 +11,59 @@ nav:
           - gis相关: blog/gis/gisnote.md
       - 大一:
           - C程序设计基础及实验: 
-              - 课程信息: blog/year1/c/cnote.md
+              - 课程信息: blog/year1/c/index.md
           - 人工智能基础(A): 
-              - 课程信息: blog/year1/AIaNote/课程信息.md
+              - 课程信息: blog/year1/AIaNote/index.md
               - 期末复习笔记: 
-                  - 第一篇: blog/year1/AIaNote/一.md
-                  - 第二篇: blog/year1/AIaNote/二.md
-                  - 第三篇: blog/year1/AIaNote/三.md
-                  - 第四篇: blog/year1/AIaNote/四.md
-              - 小测: blog/year1/AIaNote/小测.md
+                  - 第一篇: blog/year1/AIaNote/1.md
+                  - 第二篇: blog/year1/AIaNote/2.md
+                  - 第三篇: blog/year1/AIaNote/3.md
+                  - 第四篇: blog/year1/AIaNote/4.md
+              - 小测: blog/year1/AIaNote/test.md
           - Python基础: 
-              - 课程信息: blog/year1/PythonNote/课程信息.md
-              - 知识点: blog/year1/PythonNote/知识点.md
+              - 课程信息: blog/year1/PythonNote/index.md
+              - 知识点: blog/year1/PythonNote/keypoints.md
               - 理论题: blog/year1/PythonNote/error.md
               - 编程题: blog/year1/PythonNote/code.md
               - 文件: blog/year1/PythonNote/file.md
               - oop: blog/year1/PythonNote/oop.md
           - 地球科学导论: 
-              - 课程信息: blog/year1/地球科学导论/课程信息.md
-              - 笔记: blog/year1/地球科学导论/dkdnote/重点.md
+              - 课程信息: blog/year1/earth_intro/index.md
+              - 笔记: blog/year1/earth_intro/dkdnote/keypoints.md
           - 地理信息科学导论: 
-              - 课程信息: blog/year1/gis_intro/classimformation.md
+              - 课程信息: blog/year1/gis_intro/index.md
               - 梗概: blog/year1/gis_intro/gisnote.md
               - 实验笔记: blog/year1/gis_intro/labnote.md
           - 自然地理学: 
-              - 课程信息: blog/year1/自然地理note/课程信息.md
-              - 林舟: blog/year1/自然地理note/林舟.md
-              - 土壤: blog/year1/自然地理note/土壤.md
-              - 生物: blog/year1/自然地理note/第七章（生物）.md
-              - 历年卷: blog/year1/自然地理note/历年1.md
+              - 课程信息: blog/year1/naturegeo/index.md
+              - 林舟: blog/year1/naturegeo/lz.md
+              - 土壤: blog/year1/naturegeo/soil.md
+              - 生物: blog/year1/naturegeo/bio.md
+              - 历年卷: blog/year1/naturegeo/exam.md
           - 地理认知实习:
-              - 课程信息: blog/year1/地理认知实习/课程信息.md
-              - 西北干旱半干旱区地理: blog/year1/地理认知实习/1.md
-              - 中国干旱半干旱地区自然地理认知实习--北天山与准噶尔盆地: blog/year1/地理认知实习/fx.md
+              - 课程信息: blog/year1/geoprac/index.md
+              - 西北干旱半干旱区地理: blog/year1/geoprac/1.md
+              - 中国干旱半干旱地区自然地理认知实习--北天山与准噶尔盆地: blog/year1/geoprac/fx.md
           
-          #- 微积分: year1/calculus.md
+
       - 大二:
+          - 前言: blog/year2/index.md
           - 面向对象程序设计:
-              - 课程信息: blog/year2/oop/前言.md
+              - 课程信息: blog/year2/oop/index.md
           - 概率论与数理统计:
-              - 课程信息: blog/year2/概统/前言.md
+              - 课程信息: blog/year2/gt/index.md
           - 地图学:
-              - 课程信息: blog/year2/地图学/课程信息.md
+              - 课程信息: blog/year2/cartography/index.md
           - 人文地理学:
-              - 课程信息: blog/year2/人文地理/课程信息.md
+              - 课程信息: blog/year2/humangeo/index.md
           - 现代气候学基础:
-              - 课程信息: blog/year2/现代气候学基础/课程信息.md
+              - 课程信息: blog/year2/climatology/index.md
           - 大学物理(乙):
-              - 课程信息: blog/year2/physics/课程信息.md
+              - 课程信息: blog/year2/physics/index.md
           - 大学物理实验:
-              - 课程信息: blog/year2/phylab/课程信息.md
+              - 课程信息: blog/year2/phylab/index.md
           - 马克思主义基本原理:
-              - 课程信息: blog/year2/马原/课程信息.md
+              - 课程信息: blog/year2/mayuan/index.md
           #- 机器学习: year2/ml.md
   - cs:
       - 一些有用的资料: blog/computerscience/cs.md
@@ -86,6 +87,7 @@ nav:
 theme:
   name: material
   language: zh
+#  custom_dir: overrides
 
   palette:
 
@@ -187,6 +189,16 @@ plugins:
       #pagination_url_format: "page/{page}"
       #authors_file: "{blog}/.authors.yml" #作者信息
   #- tags
+  - encryptcontent: #加密配置
+      global_password: null
+      title_prefix: "🔐"
+      summary: "前面的区域以后再来探索吧"
+      placeholder: "请输入密码🔑"
+      encryption_failure_message: "写好了再发"
+      decryption_failure_message: "密码错误，请再试一次！"
+      password_button: true
+
+#   - awesome-pages
 
 markdown_extensions: #详见https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/ 和 https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown/
   - abbr
@@ -235,13 +247,3 @@ extra_javascript:
 
 site_name: 我的笔记
 
-plugins:
-  - search
-  - encryptcontent:
-      global_password: null
-      title_prefix: "🔐"
-      summary: "前面的区域以后再来探索吧"
-      placeholder: "请输入密码🔑"
-      encryption_failure_message: "写好了再发"
-      decryption_failure_message: "密码错误，请再试一次！"
-      password_button: true

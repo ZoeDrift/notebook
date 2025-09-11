@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {{ super() }}
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      // 如果页面被加密（插件会注入 window.encrypted = true）
+      if (typeof window.encrypted !== "undefined" && window.encrypted === true) {
+        // 隐藏右侧目录（TOC）
+        let toc = document.querySelector(".md-content__toc");
+        if (toc) toc.style.display = "none";
+
+        // （可选）隐藏左侧次级目录
+        let sidebar = document.querySelector(".md-sidebar--secondary");
+        if (sidebar) sidebar.style.display = "none";
+      }
+    });
+  </script>
+{% endblock %}

@@ -1,5 +1,7 @@
 ---
 password: "010603"
+hide: 
+    - toc
 ---
 
 !!! info 叠甲
