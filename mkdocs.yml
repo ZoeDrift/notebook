@@ -112,7 +112,7 @@ theme:
   features:
     - announce.dismiss #呈现可标记为由用户读取的临时公告，可以包含一个用于取消当前公告的按钮
     # - navigation.instant
-    #- header.autohide  #自动隐藏
+    - header.autohide  #自动隐藏
     - navigation.tracking #地址栏中的 URL 将自动更新为在目录中突出显示的活动锚点
     - navigation.tabs #顶级部分将呈现在上面视口标题下方的菜单层中，但在移动设备上保持原样
     # - navigation.tabs.sticky  #启用粘性选项卡后，导航选项卡将锁定在标题下方，并在向下滚动时始终保持可见
@@ -130,6 +130,7 @@ theme:
     #- content.action.edit
     #- content.action.view
     - content.code.annotate
+    # - header.repo
     
   icon:
     repo: fontawesome/brands/github #右上角图标
@@ -153,17 +154,17 @@ extra:
 
 plugins:
   - search #搜索配置
-  # - git-committers:
-  #     enabled: !ENV [git-committers, true]
-  #     repository: ZoeDrift/notebook
-  #     branch: main
-  #     exclude:
-  #       - index.md
-  #       - tag.md
-  #       - liuyanban.md
-  #       - blog/posts/update.md
-  #       - blog/posts/wkw.md
-  #       - about/link.md
+#   - git-committers:
+#       enabled: !ENV [git-committers, true]
+#       repository: ZoeDrift/notebook
+#       branch: main
+#       exclude:
+#         - index.md
+#         - tag.md
+#         - liuyanban.md
+#         - blog/posts/update.md
+#         - blog/posts/wkw.md
+#         - about/link.md
   - git-revision-date-localized:
       enabled: !ENV [git-revision-date-localized, false]
       type: iso_date
@@ -176,18 +177,18 @@ plugins:
         - blog/posts/wkw.md
         - about/link.md
         - websitebeauty/linktech.md
-  #- blog: #博客配置
-      #post_date_format: full #时间
-      #draft: true
-      #draft_if_future_date: true #自动将具有未来日期的帖子标记为草稿
-      #post_readtime: true
-      #post_readtime_words_per_minute: 265 #计算帖子的阅读时间时读者每分钟预计阅读的字数
-      #post_url_format: "{date}/{slug}"
-      # categories_slugify: !!python/object/apply:pymdownx.slugs.slugify
-      #   kwds:
-      #     case: lower
-      #pagination_url_format: "page/{page}"
-      #authors_file: "{blog}/.authors.yml" #作者信息
+#   - blog: #博客配置
+#       post_date_format: full #时间
+#       draft: true
+#       draft_if_future_date: true #自动将具有未来日期的帖子标记为草稿
+#       post_readtime: true
+#       post_readtime_words_per_minute: 265 #计算帖子的阅读时间时读者每分钟预计阅读的字数
+#       post_url_format: "{date}/{slug}"
+#       categories_slugify: !!python/object/apply:pymdownx.slugs.slugify
+#         kwds:
+#           case: lower
+#       pagination_url_format: "page/{page}"
+#       authors_file: "{blog}/.authors.yml" #作者信息
   #- tags
   - encryptcontent: #加密配置
       global_password: null

@@ -9,4 +9,4 @@
  
 [修佬的理论知识整理](https://note.isshikih.top/cour_note/D1QD_CXiaoCheng/){:target = "_blank" }
 
-给分挺好的，就是小测题太有强度了（）  
+白老师和助教人都非常好，最后的给分也很好，就是小测好难o(╥﹏╥)o，不过最后小测会调分所以问题也不大  
