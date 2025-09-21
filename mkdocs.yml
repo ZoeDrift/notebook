@@ -10,6 +10,7 @@ nav:
       - gis:
           - gis相关: blog/gis/gisnote.md
       - 大一:
+          - 前言: blog/year1/index.md
           - C程序设计基础及实验: 
               - 课程信息: blog/year1/c/index.md
           - 人工智能基础(A): 
