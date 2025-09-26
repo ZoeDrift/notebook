@@ -51,6 +51,7 @@ nav:
           - 前言: blog/year2/index.md
           - 面向对象程序设计:
               - 课程信息: blog/year2/oop/index.md
+              - cpp学习: blog/year2/oop/0.md 
               - lecture01: blog/year2/oop/1.md
           - 概率论与数理统计:
               - 课程信息: blog/year2/gt/index.md
