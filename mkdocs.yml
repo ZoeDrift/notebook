@@ -62,13 +62,13 @@ nav:
               - 第一章-绪论: blog/year2/humangeo/2.md
           - 现代气候学基础:
               - 课程信息: blog/year2/climatology/index.md
+              - 作业: blog/year2/climatology/hw/hw1.md
           - 大学物理(乙):
               - 课程信息: blog/year2/physics/index.md
           - 大学物理实验:
               - 课程信息: blog/year2/phylab/index.md
           - 马克思主义基本原理:
               - 课程信息: blog/year2/mayuan/index.md
-          #- 机器学习: year2/ml.md
 
       - 辅修AI+X:
           - 前言: blog/ai/index.md
