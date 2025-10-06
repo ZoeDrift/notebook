@@ -72,6 +72,10 @@ nav:
               - 课程信息: blog/year2/phylab/index.md
           - 马克思主义基本原理:
               - 课程信息: blog/year2/mayuan/index.md
+          - GIS平台实践:
+              - 课程信息: blog/year2/gisprac/index.md
+              - lab3-1: blog/year2/gisprac/3.md
+              - lab4: blog/year2/gisprac/4.md
 
       - 辅修AI+X:
           - 前言: blog/ai/index.md
