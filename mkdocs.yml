@@ -59,7 +59,9 @@ nav:
               - 课程信息: blog/year2/cartography/index.md
           - 人文地理学:
               - 课程信息: blog/year2/humangeo/index.md
-              - 第一章-绪论: blog/year2/humangeo/2.md
+              - 第一章-绪论: blog/year2/humangeo/1.md
+              - 第二章-研究主题和核心理论: blog/year2/humangeo/2.md
+              - 第三章-认识论和分析技术: blog/year3/humangeo/3.md
           - 现代气候学基础:
               - 课程信息: blog/year2/climatology/index.md
               - 作业: blog/year2/climatology/hw/hw1.md
