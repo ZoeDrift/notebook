@@ -53,6 +53,7 @@ nav:
               - 课程信息: blog/year2/oop/index.md
               - cpp学习: blog/year2/oop/0.md 
               - lecture01: blog/year2/oop/1.md
+              - lecture02: blog/year2/oop/2.md
           - 概率论与数理统计:
               - 课程信息: blog/year2/gt/index.md
           - 地图学:
@@ -65,7 +66,8 @@ nav:
           - 现代气候学基础:
               - 课程信息: blog/year2/climatology/index.md
               - 第一章-绪论: blog/year2/climatology/1.md
-              - 作业: blog/year2/climatology/hw/hw1.md
+              - 第二章-气候系统组成: blog/year2/climatology/2.md
+              - 第三章-气候系统的热力过程: blog/year2/climatology/3.md
           - 大学物理(乙):
               - 课程信息: blog/year2/physics/index.md
           - 大学物理实验:
@@ -221,6 +223,8 @@ plugins:
       encryption_failure_message: "写好了再发"
       decryption_failure_message: "密码错误，请再试一次！"
       password_button: true
+  - minify: #资源压缩
+      minify_html: true
 
 #   - awesome-pages
 
@@ -268,6 +272,7 @@ markdown_extensions: #详见https://squidfunk.github.io/mkdocs-material/setup/ex
 extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6 #Latex支持
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js #Latex支持
+  - assets/lazyload.js
 
 site_name: 我的笔记
 
