@@ -94,7 +94,17 @@ nav:
               - 引言: blog/ai/math/0.md
           - 人工智能伦理与安全:
               - 课程信息: blog/ai/lunli/index.md
-              - 工智能伦理与安全概述: blog/ai/lunli/1.md
+              - 1-人工智能伦理与安全概述: blog/ai/lunli/1.md
+              - 2-人工智能伦理原则: blog/ai/lunli/2.md
+              - 3-AI被赋予的“价值观”：是谁在塑造AI的价值准则？: blog/ai/lunli/3.md
+              - 4-人工智能隐私保护: blog/ai/lunli/4.md
+              - 5-人工智能公平性: blog/ai/lunli/5.md
+              - 6-人工智能伦理道德: blog/ai/lunli/6.md
+              - 7-人工智能安全问题概述: blog/ai/lunli/7.md
+              - 8-人工智能对抗样本攻击与防御: blog/ai/lunli/8.md
+              - 9-人工智能数据投毒和后门攻击与防御: blog/ai/lunli/9.md
+              - 10-人工智能模型窃取攻击与防御: blog/ai/lunli/10.md
+
   - cs:
       - 一些有用的资料: blog/computerscience/cs.md
   - 实用工具: 
