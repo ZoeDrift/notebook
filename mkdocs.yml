@@ -89,6 +89,8 @@ nav:
           - 人工智能引论: 
               - 课程信息: blog/ai/intro/index.md
               - 人工智能概述: blog/ai/intro/1.md
+              - ai2: blog/ai/intro/2.md
+              - ai3: blog/ai/intro/3.md
           - 人工智能数学基础:
               - 课程信息: blog/ai/math/index.md
               - 引言: blog/ai/math/0.md
