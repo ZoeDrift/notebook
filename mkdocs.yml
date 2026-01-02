@@ -58,6 +58,17 @@ nav:
               - 课程信息: blog/year2/gt/index.md
           - 地图学:
               - 课程信息: blog/year2/cartography/index.md
+              - 1.课程介绍与导论: blog/year2/cartography/1.md
+              - 2.地图历史与地图数据: blog/year2/cartography/2.md
+              - 3.地图数学基础: blog/year2/cartography/3.md
+              - 4.地图要素及图面设计: blog/year2/cartography/4.md
+              - 5.地图符号: blog/year2/cartography/5.md
+              - 6.地图注记: blog/year2/cartography/6.md
+              - 7.地图色彩: blog/year2/cartography/7.md
+              - 8.地图数据源分析与处理: blog/year2/cartography/8.md
+              - 9.制图综合: blog/year2/cartography/9.md
+              - 10.网络制图: blog/year2/cartography/10.md
+
           - 人文地理学:
               - 课程信息: blog/year2/humangeo/index.md
               - 第一章-绪论: blog/year2/humangeo/1.md
