@@ -300,5 +300,5 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js #Latex支持
   - assets/lazyload.js
 
-site_name: 我的笔记
+site_name: 「我不是日暮」的笔记
 
