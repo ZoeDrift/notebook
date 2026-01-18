@@ -49,7 +49,7 @@ theme:
     - search.suggest # 搜索输入一些字母时推荐补全整个单词
     - search.highlight # 搜索出的文章关键词加入高亮
     - search.share #搜索分享按钮
-    - navigation.expand # 打开Tab时左侧目录全部展开
+    # - navigation.expand # 打开Tab时左侧目录全部展开
     - navigation.indexes #启用节索引页后，可以将文档直接附加到节
     - content.tabs.link
     - content.tooltips
@@ -75,8 +75,8 @@ extra_css:
 extra:
   generator: false # 页脚不显示made by...
   social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/ZoeDrift
+    # - icon: fontawesome/brands/github
+    #   link: https://github.com/ZoeDrift
 
     - icon: fontawesome/regular/envelope
       link: mailto:<2991146639@qq.com>
