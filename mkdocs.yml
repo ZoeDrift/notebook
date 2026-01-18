@@ -85,15 +85,15 @@ extra:
 
 plugins:
   - search #搜索配置
-  - git-committers:
-      enabled: !ENV [git-committers, true]
-      repository: ZoeDrift/notebook
-      branch: main
+#   - git-committers:
+#       enabled: !ENV [git-committers, true]
+#       repository: ZoeDrift/notebook
+#       branch: main
 
   - git-revision-date-localized: #最后更新时间
-      enabled: !ENV [git-revision-date-localized, true]
+      enabled: true #!ENV [git-revision-date-localized, true]
       type: iso_date
-      enable_creation_date: false
+      enable_creation_date: true
       exclude:
         #- index.md
 
