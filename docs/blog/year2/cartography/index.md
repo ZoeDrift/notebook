@@ -1,6 +1,6 @@
 !!! note "课程信息"
-    lj,cdf，5-26冬  
-    平时成绩30%，期中论文（AI for Cartography）ai使用心得ppt（一两分钟）5%，课程设计15%，考试50%
+    lj,cdf，25-26冬  
+    平时成绩30%，期中展示（AI for Cartography）ai使用心得ppt（一两分钟）5%，期末课程设计15%，闭卷期末50%
 
 [地图学知识点提纲整理（98：星幻`碎梦）](https://www.cc98.org/topic/6089178){:target = "_blank"}
 

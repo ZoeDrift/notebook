@@ -1,11 +1,11 @@
-site_name: Zoe's Notes
+site_name: 「我不是日暮」的收藏夹
 site_url: https://zoedrift.github.io/notebook/
 repo_url: https://github.com/zoedrift/notebook
 repo_name: "ZoeDrift/notebook"
 site_author: Zoe
 
 #版权信息
-copyright: 'Copyright &copy; 2024 Zoe'
+copyright: 'Copyright &copy; 2025 Zoe'
 
 theme:
   name: material
@@ -15,7 +15,7 @@ theme:
   font:
     text: "LXGW WenKai Screen"  # 指定正文字体
     code: "JetBrains Mono"      # 指定代码字体  
-  favicon: assets/images/mtm.png 
+  favicon: assets/images/mtm1.png 
   palette:
 
     # Palette toggle for light mode
@@ -95,7 +95,7 @@ plugins:
       type: iso_date
       enable_creation_date: false
       exclude:
-        - index.md
+        #- index.md
 
   - timetoread:
       words_per_minute: 265
@@ -181,8 +181,7 @@ nav:
           - gis相关: blog/gis/gisnote.md
       - 大一:
           - 前言: blog/year1/index.md
-          - C程序设计基础及实验: 
-              - 课程信息: blog/year1/c/index.md
+
           - 人工智能基础(A): 
               - 课程信息: blog/year1/AIaNote/index.md
               - 期末复习笔记: 
@@ -191,13 +190,7 @@ nav:
                   - 第三篇: blog/year1/AIaNote/3.md
                   - 第四篇: blog/year1/AIaNote/4.md
               - 小测: blog/year1/AIaNote/test.md
-          - Python基础: 
-              - 课程信息: blog/year1/PythonNote/index.md
-              - 知识点: blog/year1/PythonNote/keypoints.md
-              - 理论题: blog/year1/PythonNote/error.md
-              - 编程题: blog/year1/PythonNote/code.md
-              - 文件: blog/year1/PythonNote/file.md
-              - oop: blog/year1/PythonNote/oop.md
+
           - 地球科学导论: 
               - 课程信息: blog/year1/earth_intro/index.md
               - 笔记: blog/year1/earth_intro/dkdnote/keypoints.md
@@ -219,15 +212,6 @@ nav:
 
       - 大二:
           - 前言: blog/year2/index.md
-          - 面向对象程序设计:
-              - 课程信息: blog/year2/oop/index.md
-              - cpp学习: blog/year2/oop/0.md 
-              - lecture01: blog/year2/oop/1.md
-              - lecture02: blog/year2/oop/2.md
-              - 。。。: blog/year2/oop/3.md
-              - ???: blog/year2/oop/4.md
-          - 概率论与数理统计:
-              - 课程信息: blog/year2/gt/index.md
           - 地图学:
               - 课程信息: blog/year2/cartography/index.md
               - 1.课程介绍与导论: blog/year2/cartography/1.md
@@ -258,10 +242,7 @@ nav:
               - 第二章-气候系统组成: blog/year2/climatology/2.md
               - 第三章-气候系统的热力过程: blog/year2/climatology/3.md
               - 第五章-气候的形成: blog/year2/climatology/5.md
-          - 大学物理实验:
-              - 课程信息: blog/year2/phylab/index.md
-          - 马克思主义基本原理:
-              - 课程信息: blog/year2/mayuan/index.md
+
           - GIS平台实践:
               - 课程信息: blog/year2/gisprac/index.md
 
@@ -303,6 +284,4 @@ nav:
   - 杂项:
       - 梦到哪句说哪句:
           - 抹茶: blog/sundries/dream/tea.md
-      - 别看: blog/sundries/bz.md
-      - 猎奇: blog/sundries/rubbish.md
   
