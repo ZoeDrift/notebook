@@ -5,14 +5,14 @@
 
 ## 参考资料
 98上的  
-笔记：  
+### 笔记：  
 [地球科学导论/地科导 笔记分享 （98：向多多学习）](https://www.cc98.org/topic/6109587){ :target="_blank"}
 
 [地球科学导论 老师划重点/复习笔记（未完工（98：Aprooil）](https://www.cc98.org/topic/5924381){ :target="_blank"}
 
 [地球科学导论重点整理 （98：翰堡堡）](https://www.cc98.org/topic/5923809){ :target="_blank"}
 
-历年卷：  
+### 历年卷：  
 [【2024-2025】春夏学期 （98：面包芝士）](https://www.cc98.org/topic/6220478){ :target="_blank"} 
 
 [24-25春夏 地球科学导论（地科导）回忆卷](https://www.cc98.org/topic/6220462){ :target="_blank"}  
