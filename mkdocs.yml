@@ -1,9 +1,179 @@
 site_name: Zoe's Notes
 site_url: https://zoedrift.github.io/notebook/
 repo_url: https://github.com/zoedrift/notebook
-repo_name: ""
+repo_name: "ZoeDrift/notebook"
 site_author: Zoe
 
+#版权信息
+copyright: 'Copyright &copy; 2024 Zoe'
+
+theme:
+  name: material
+  language: zh
+
+  #字体
+  font:
+    text: "LXGW WenKai Screen"  # 指定正文字体
+    code: "JetBrains Mono"      # 指定代码字体  
+  favicon: assets/images/mtm.png 
+  palette:
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: mtm
+      primary: green
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+  features:
+    - announce.dismiss #呈现可标记为由用户读取的临时公告，可以包含一个用于取消当前公告的按钮
+    # - navigation.instant
+    #- header.autohide  #自动隐藏
+    - navigation.tracking #地址栏中的 URL 将自动更新为在目录中突出显示的活动锚点
+    - navigation.tabs #顶级部分将呈现在上面视口标题下方的菜单层中，但在移动设备上保持原样
+    # - navigation.tabs.sticky  #启用粘性选项卡后，导航选项卡将锁定在标题下方，并在向下滚动时始终保持可见
+    - navigation.sections #启用部分后，顶级部分在边栏中呈现为1220px以上视口的组，但在移动设备上保持原样
+    - navigation.top # 返回顶部的按钮 在上滑时出现
+    - navigation.footer #页脚将呈现在边栏中，但在移动设备上保持原样。。显示上一页下一页
+    - search.suggest # 搜索输入一些字母时推荐补全整个单词
+    - search.highlight # 搜索出的文章关键词加入高亮
+    - search.share #搜索分享按钮
+    - navigation.expand # 打开Tab时左侧目录全部展开
+    - navigation.indexes #启用节索引页后，可以将文档直接附加到节
+    - content.tabs.link
+    - content.tooltips
+    - content.code.copy #代码复制
+    #- content.action.edit
+    #- content.action.view
+    - content.code.annotate
+    # - header.repo
+    
+  icon:
+    repo: fontawesome/brands/github #右上角图标
+
+  logo: assets/images/logo.PNG
+
+extra_css:
+  - stylesheets/extra.css
+  #新增
+  # 引入霞鹜文楷字体 CSS (在线加载)
+  - https://npm.elemecdn.com/lxgw-wenkai-screen-webfont/style.css
+  # Latex 公式支持
+  - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css
+
+extra:
+  generator: false # 页脚不显示made by...
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ZoeDrift
+
+    - icon: fontawesome/regular/envelope
+      link: mailto:<2991146639@qq.com>
+
+  math: true
+
+plugins:
+  - search #搜索配置
+  - git-committers:
+      enabled: !ENV [git-committers, true]
+      repository: ZoeDrift/notebook
+      branch: main
+
+  - git-revision-date-localized: #最后更新时间
+      enabled: !ENV [git-revision-date-localized, true]
+      type: iso_date
+      enable_creation_date: false
+      exclude:
+        - index.md
+
+  - timetoread:
+      words_per_minute: 265
+
+  - blog: #博客配置
+      post_date_format: full #时间
+      draft: true
+      draft_if_future_date: true #自动将具有未来日期的帖子标记为草稿
+      post_readtime: true
+      post_readtime_words_per_minute: 265 #计算帖子的阅读时间时读者每分钟预计阅读的字数
+      post_url_format: "{date}/{slug}"
+#       categories_slugify: !!python/object/apply:pymdownx.slugs.slugify
+#         kwds:
+#           case: lower
+#       pagination_url_format: "page/{page}"
+#       authors_file: "{blog}/.authors.yml" #作者信息
+  #- tags
+  - encryptcontent: #加密配置
+      global_password: null
+      title_prefix: "🔐"
+      summary: "没写好，以后发"
+      placeholder: "请输入密码🔑"
+      encryption_failure_message: "写好了再发"
+      decryption_failure_message: "密码错误，请再试一次！"
+      password_button: true
+  - minify: #资源压缩
+      minify_html: true
+
+#   - awesome-pages
+
+markdown_extensions: #详见https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/ 和 https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown/
+  - abbr
+  - attr_list
+  - admonition
+  - def_list
+  - footnotes
+  - md_in_html
+  # - meta # 支持Markdown文件上方自定义标题标签等
+  - pymdownx.caret
+  - pymdownx.betterem
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.snippets
+  - pymdownx.smartsymbols
+  - pymdownx.tilde
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format:
+            !!python/name:pymdownx.superfences.fence_code_format # 代码块高亮插件
+  - pymdownx.arithmatex: # latex支持
+      generic: true
+  - toc:
+      permalink: true # 固定标题位置为当前位置
+  - pymdownx.highlight: # 代码块高亮
+      anchor_linenums: true
+      linenums: true # 显示行号
+      auto_title: false # true-显示编程语言名称
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+
+extra_javascript:
+  # - https://polyfill.io/v3/polyfill.min.js?features=es6 #Latex支持
+  # - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js #Latex支持
+  - assets/lazyload.js
+  # --- 修正：删除 polyfill.io，改用 Katex 的 JS ---
+  - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js
+  - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js
 nav:
   - 首页: index.md
   - 课程笔记:
@@ -118,7 +288,7 @@ nav:
               - 9-人工智能数据投毒和后门攻击与防御: blog/ai/lunli/9.md
               - 10-人工智能模型窃取攻击与防御: blog/ai/lunli/10.md
 
-  - cs:
+  - 收藏夹:
       - 一些有用的资料: blog/computerscience/cs.md
   - 实用工具: 
       - latex: blog/tool/latex.md
@@ -136,172 +306,3 @@ nav:
       - 别看: blog/sundries/bz.md
       - 猎奇: blog/sundries/rubbish.md
   
-
-theme:
-  name: material
-  language: zh
-#  custom_dir: overrides
-
-  palette:
-
-    # Palette toggle for light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: mtm
-      primary: green
-      accent: teal
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-
-    # Palette toggle for dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: black
-      accent: blue
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
-
-  features:
-    - announce.dismiss #呈现可标记为由用户读取的临时公告，可以包含一个用于取消当前公告的按钮
-    # - navigation.instant
-    - header.autohide  #自动隐藏
-    - navigation.tracking #地址栏中的 URL 将自动更新为在目录中突出显示的活动锚点
-    - navigation.tabs #顶级部分将呈现在上面视口标题下方的菜单层中，但在移动设备上保持原样
-    # - navigation.tabs.sticky  #启用粘性选项卡后，导航选项卡将锁定在标题下方，并在向下滚动时始终保持可见
-    - navigation.sections #启用部分后，顶级部分在边栏中呈现为1220px以上视口的组，但在移动设备上保持原样
-    - navigation.top # 返回顶部的按钮 在上滑时出现
-    - navigation.footer #页脚将呈现在边栏中，但在移动设备上保持原样
-    - search.suggest # 搜索输入一些字母时推荐补全整个单词
-    - search.highlight # 搜索出的文章关键词加入高亮
-    - search.share #搜索分享按钮
-    - navigation.expand # 打开Tab时左侧目录全部展开
-    - navigation.indexes #启用节索引页后，可以将文档直接附加到节
-    - content.tabs.link
-    - content.tooltips
-    - content.code.copy #代码复制
-    #- content.action.edit
-    #- content.action.view
-    - content.code.annotate
-    # - header.repo
-    
-  icon:
-    repo: fontawesome/brands/github #右上角图标
-
-  logo: assets/images/logo.PNG
-
-extra_css:
-  - stylesheets/extra.css
-
-extra:
-  generator: false # 页脚不显示made by...
-
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/ZoeDrift
-
-    - icon: fontawesome/regular/envelope
-      link: mailto:<2991146639@qq.com>
-
-  math: true
-
-plugins:
-  - search #搜索配置
-#   - git-committers:
-#       enabled: !ENV [git-committers, true]
-#       repository: ZoeDrift/notebook
-#       branch: main
-#       exclude:
-#         - index.md
-#         - tag.md
-#         - liuyanban.md
-#         - blog/posts/update.md
-#         - blog/posts/wkw.md
-#         - about/link.md
-  - git-revision-date-localized:
-      enabled: !ENV [git-revision-date-localized, false]
-      type: iso_date
-      enable_creation_date: false
-      exclude:
-        - index.md
-        - tag.md
-        - liuyanban.md
-        - blog/posts/update.md
-        - blog/posts/wkw.md
-        - about/link.md
-        - websitebeauty/linktech.md
-# mark
-  - blog: #博客配置
-      post_date_format: full #时间
-      draft: true
-      draft_if_future_date: true #自动将具有未来日期的帖子标记为草稿
-      post_readtime: true
-      post_readtime_words_per_minute: 265 #计算帖子的阅读时间时读者每分钟预计阅读的字数
-      post_url_format: "{date}/{slug}"
-#       categories_slugify: !!python/object/apply:pymdownx.slugs.slugify
-#         kwds:
-#           case: lower
-#       pagination_url_format: "page/{page}"
-#       authors_file: "{blog}/.authors.yml" #作者信息
-  #- tags
-  - encryptcontent: #加密配置
-      global_password: null
-      title_prefix: "🔐"
-      summary: "没写好，以后发"
-      placeholder: "请输入密码🔑"
-      encryption_failure_message: "写好了再发"
-      decryption_failure_message: "密码错误，请再试一次！"
-      password_button: true
-  - minify: #资源压缩
-      minify_html: true
-
-#   - awesome-pages
-
-markdown_extensions: #详见https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/ 和 https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown/
-  - abbr
-  - attr_list
-  - admonition
-  - def_list
-  - footnotes
-  - md_in_html
-  # - meta # 支持Markdown文件上方自定义标题标签等
-  - pymdownx.caret
-  - pymdownx.betterem
-  - pymdownx.critic
-  - pymdownx.details
-  - pymdownx.inlinehilite
-  - pymdownx.keys
-  - pymdownx.mark
-  - pymdownx.snippets
-  - pymdownx.smartsymbols
-  - pymdownx.tilde
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format:
-            !!python/name:pymdownx.superfences.fence_code_format # 代码块高亮插件
-  - pymdownx.arithmatex: # latex支持
-      generic: true
-  - toc:
-      permalink: true # 固定标题位置为当前位置
-  - pymdownx.highlight: # 代码块高亮
-      anchor_linenums: true
-      linenums: true # 显示行号
-      auto_title: false # true-显示编程语言名称
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  - pymdownx.tabbed:
-      alternate_style: true
-  - pymdownx.tasklist:
-      custom_checkbox: true
-
-
-extra_javascript:
-  - https://polyfill.io/v3/polyfill.min.js?features=es6 #Latex支持
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js #Latex支持
-  - assets/lazyload.js
-
-site_name: 「我不是日暮」的笔记
-
