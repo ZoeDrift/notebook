@@ -26,12 +26,14 @@
 /* 主要通过修改这个元素的内边距来调整高度 */
 
 
-/* 隐藏电脑端顶部栏的 GitHub 图标 */
-.md-header__source {
+/* 暴力隐藏：针对所有可能的层级 */
+.md-header__source,
+.md-nav__source,
+div.md-nav__source { 
   display: none !important;
-}
-
-/* 隐藏手机/平板端侧边栏里的 GitHub 图标 */
-.md-nav__source {
-  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  opacity: 0 !important;
 }
