@@ -2,10 +2,10 @@ site_name: 「我不是日暮」的收藏夹
 site_url: https://zoedrift.github.io/notebook/
 repo_url: https://github.com/zoedrift/notebook
 repo_name: "ZoeDrift/notebook"
-site_author: Zoe
+site_author: zzz
 
 #版权信息
-copyright: 'Copyright &copy; 2025 Zoe'
+copyright: 'Copyright &copy; 2025 我不是日暮'
 
 theme:
   name: material
