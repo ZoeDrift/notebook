@@ -65,7 +65,7 @@ theme:
   logo: assets/images/logo.PNG
 
 extra_css:
-  - stylesheets/extra.css
+  - stylesheets/extra.css?v=2
   #新增
   # 引入霞鹜文楷字体 CSS (在线加载)
   - https://npm.elemecdn.com/lxgw-wenkai-screen-webfont/style.css
