@@ -26,8 +26,12 @@
 /* 主要通过修改这个元素的内边距来调整高度 */
 
 
-/* 同时隐藏电脑和手机端的 GitHub 仓库链接 */
-.md-header__source,
+/* 隐藏电脑端顶部栏的 GitHub 图标 */
+.md-header__source {
+  display: none !important;
+}
+
+/* 隐藏手机/平板端侧边栏里的 GitHub 图标 */
 .md-nav__source {
   display: none !important;
 }
