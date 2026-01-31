@@ -116,7 +116,7 @@ plugins:
   - encryptcontent: #加密配置
       global_password: null
       title_prefix: "🔐"
-      summary: "没写好，以后发"
+      summary: "老迪机能可以不继续下滑了好吗？好的。"
       placeholder: "请输入密码🔑"
       encryption_failure_message: "写好了再发"
       decryption_failure_message: "密码错误，请再试一次！"
