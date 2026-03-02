@@ -239,10 +239,10 @@ nav:
 
           - 现代气候学基础:
               - 课程信息: blog/year2/climatology/index.md
-              - 第一章-绪论: blog/year2/climatology/1.md
-              - 第二章-气候系统组成: blog/year2/climatology/2.md
-              - 第三章-气候系统的热力过程: blog/year2/climatology/3.md
-              - 第五章-气候的形成: blog/year2/climatology/5.md
+              # - 第一章-绪论: blog/year2/climatology/1.md
+              # - 第二章-气候系统组成: blog/year2/climatology/2.md
+              # - 第三章-气候系统的热力过程: blog/year2/climatology/3.md
+              # - 第五章-气候的形成: blog/year2/climatology/5.md
 
           - GIS平台实践:
               - 课程信息: blog/year2/gisprac/index.md
