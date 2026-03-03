@@ -11,6 +11,9 @@
 | [地理信息科学导论](blog/year1/gis_intro/index.md) | GEOS1002M | 2024-2025春夏(大一下) | ✅ |
 | [人文地理学](blog/year2/humangeo/index.md) | GEOS2005M | 2025-2026秋(大二上) | ✅ |
 | [地图学](blog/year2/cartography/index.md) | GEOS2011M | 2025-2026冬(大二上) | ✅ |
+| [遥感概论](blog/year2/rs/index.md) | GEO2001M | 2025-2026春(大二下) | - |
+| [GIS应用开发](blog/year2/gisad/index.md) | GEO2020M | 2025-2026春夏(大二下) | - |
+| [GIS空间分析](blog/year2/gissa/index.md) | GEO2023M | 2025-2026春夏(大二下) | - |
 
 ### 专业选修课程（10学分）
 | 课程名称 | 课程号 | 修读时间 | 是否有笔记 |

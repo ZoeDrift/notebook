@@ -247,6 +247,15 @@ nav:
           - GIS平台实践:
               - 课程信息: blog/year2/gisprac/index.md
 
+          - GIS应用开发:
+              - 课程信息: blog/year2/gisad/index.md
+          
+          - GIS空间分析:
+              - 课程信息: blog/year2/gissa/index.md
+
+          - 遥感概论:
+              - 课程信息: blog/year2/rs/index.md
+
       - 辅修AI+X:
           - 前言: blog/ai/index.md
           - 人工智能引论: 
