@@ -5,7 +5,7 @@ repo_name: "ZoeDrift/notebook"
 site_author: zzz
 
 #版权信息
-copyright: 'Copyright &copy; 2025 我不是日暮'
+copyright: 'Copyright &copy; 2025-2026 我不是日暮'
 
 theme:
   name: material
