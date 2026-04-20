@@ -255,6 +255,7 @@ nav:
 
           - 遥感概论:
               - 课程信息: blog/year2/rs/index.md
+              - 笔记: blog/year2/rs/1.md
 
       - 辅修AI+X:
           - 前言: blog/ai/index.md
