@@ -179,111 +179,111 @@ extra_javascript:
 
 nav:
   - 首页: index.md
-#   - 课程笔记:
-#       - gis:
-#           - gis相关: blog/gis/gisnote.md
-#       - 大一:
-#           - 前言: blog/year1/index.md
+  - 课程笔记:
+      - gis:
+          - gis相关: blog/gis/gisnote.md
+      - 大一:
+          - 前言: blog/year1/index.md
 
-#           - 人工智能基础(A): 
-#               - 课程信息: blog/year1/AIaNote/index.md
-#               - 期末复习笔记: 
-#                   - 第一篇: blog/year1/AIaNote/1.md
-#                   - 第二篇: blog/year1/AIaNote/2.md
-#                   - 第三篇: blog/year1/AIaNote/3.md
-#                   - 第四篇: blog/year1/AIaNote/4.md
-#               - 小测: blog/year1/AIaNote/test.md
+          - 人工智能基础(A): 
+              - 课程信息: blog/year1/AIaNote/index.md
+              - 期末复习笔记: 
+                  - 第一篇: blog/year1/AIaNote/1.md
+                  - 第二篇: blog/year1/AIaNote/2.md
+                  - 第三篇: blog/year1/AIaNote/3.md
+                  - 第四篇: blog/year1/AIaNote/4.md
+              - 小测: blog/year1/AIaNote/test.md
 
-#           - 地球科学导论: 
-#               - 课程信息: blog/year1/earth_intro/index.md
-#               - 笔记: blog/year1/earth_intro/dkdnote/keypoints.md
-#           - 地理信息科学导论: 
-#               - 课程信息: blog/year1/gis_intro/index.md
-#               - 梗概: blog/year1/gis_intro/gisnote.md
-#               - 实验笔记: blog/year1/gis_intro/labnote.md
-#           - 自然地理学: 
-#               - 课程信息: blog/year1/naturegeo/index.md
-#               - 林舟: blog/year1/naturegeo/lz.md
-#               - 土壤: blog/year1/naturegeo/soil.md
-#               - 生物: blog/year1/naturegeo/bio.md
-#               - 历年卷: blog/year1/naturegeo/exam.md
-#           - 地理认知实习:
-#               - 课程信息: blog/year1/geoprac/index.md
-#               - 西北干旱半干旱区地理: blog/year1/geoprac/1.md
-#               - 中国干旱半干旱地区自然地理认知实习--北天山与准噶尔盆地: blog/year1/geoprac/fx.md
+          - 地球科学导论: 
+              - 课程信息: blog/year1/earth_intro/index.md
+              - 笔记: blog/year1/earth_intro/dkdnote/keypoints.md
+          - 地理信息科学导论: 
+              - 课程信息: blog/year1/gis_intro/index.md
+              - 梗概: blog/year1/gis_intro/gisnote.md
+              - 实验笔记: blog/year1/gis_intro/labnote.md
+          - 自然地理学: 
+              - 课程信息: blog/year1/naturegeo/index.md
+              - 林舟: blog/year1/naturegeo/lz.md
+              - 土壤: blog/year1/naturegeo/soil.md
+              - 生物: blog/year1/naturegeo/bio.md
+              - 历年卷: blog/year1/naturegeo/exam.md
+          - 地理认知实习:
+              - 课程信息: blog/year1/geoprac/index.md
+              - 西北干旱半干旱区地理: blog/year1/geoprac/1.md
+              - 中国干旱半干旱地区自然地理认知实习--北天山与准噶尔盆地: blog/year1/geoprac/fx.md
           
 
-#       - 大二:
-#           - 前言: blog/year2/index.md
-#           - 地图学:
-#               - 课程信息: blog/year2/cartography/index.md
-#               - 1.课程介绍与导论: blog/year2/cartography/1.md
-#               - 2.地图历史与地图数据: blog/year2/cartography/2.md
-#               - 3.地图数学基础: blog/year2/cartography/3.md
-#               - 4.地图要素及图面设计: blog/year2/cartography/4.md
-#               - 5.地图符号: blog/year2/cartography/5.md
-#               - 6.地图注记: blog/year2/cartography/6.md
-#               - 7.地图色彩: blog/year2/cartography/7.md
-#               - 8.地图数据源分析与处理: blog/year2/cartography/8.md
-#               - 9.制图综合: blog/year2/cartography/9.md
-#               - 10.网络制图: blog/year2/cartography/10.md
+      - 大二:
+          - 前言: blog/year2/index.md
+          - 地图学:
+              - 课程信息: blog/year2/cartography/index.md
+              - 1.课程介绍与导论: blog/year2/cartography/1.md
+              - 2.地图历史与地图数据: blog/year2/cartography/2.md
+              - 3.地图数学基础: blog/year2/cartography/3.md
+              - 4.地图要素及图面设计: blog/year2/cartography/4.md
+              - 5.地图符号: blog/year2/cartography/5.md
+              - 6.地图注记: blog/year2/cartography/6.md
+              - 7.地图色彩: blog/year2/cartography/7.md
+              - 8.地图数据源分析与处理: blog/year2/cartography/8.md
+              - 9.制图综合: blog/year2/cartography/9.md
+              - 10.网络制图: blog/year2/cartography/10.md
 
-#           - 人文地理学:
-#               - 课程信息: blog/year2/humangeo/index.md
-#               - 第一章-绪论: blog/year2/humangeo/1.md
-#               - 第二章-研究主题和核心理论: blog/year2/humangeo/2.md
-#               - 第三章-认识论和分析技术: blog/year2/humangeo/3.md
-#               - 第四章: blog/year2/humangeo/4.md
-#               - 第五章: blog/year2/humangeo/5.md
-#               - 第十二章: blog/year2/humangeo/6.md
-#               - 补充(98): blog/year2/humangeo/7.md
-#               - 人物、学说整理: blog/year2/humangeo/8.md
+          - 人文地理学:
+              - 课程信息: blog/year2/humangeo/index.md
+              - 第一章-绪论: blog/year2/humangeo/1.md
+              - 第二章-研究主题和核心理论: blog/year2/humangeo/2.md
+              - 第三章-认识论和分析技术: blog/year2/humangeo/3.md
+              - 第四章: blog/year2/humangeo/4.md
+              - 第五章: blog/year2/humangeo/5.md
+              - 第十二章: blog/year2/humangeo/6.md
+              - 补充(98): blog/year2/humangeo/7.md
+              - 人物、学说整理: blog/year2/humangeo/8.md
 
-#           - 现代气候学基础:
-#               - 课程信息: blog/year2/climatology/index.md
-#               # - 第一章-绪论: blog/year2/climatology/1.md
-#               # - 第二章-气候系统组成: blog/year2/climatology/2.md
-#               # - 第三章-气候系统的热力过程: blog/year2/climatology/3.md
-#               # - 第五章-气候的形成: blog/year2/climatology/5.md
+          - 现代气候学基础:
+              - 课程信息: blog/year2/climatology/index.md
+              # - 第一章-绪论: blog/year2/climatology/1.md
+              # - 第二章-气候系统组成: blog/year2/climatology/2.md
+              # - 第三章-气候系统的热力过程: blog/year2/climatology/3.md
+              # - 第五章-气候的形成: blog/year2/climatology/5.md
 
-#           - GIS平台实践:
-#               - 课程信息: blog/year2/gisprac/index.md
+          - GIS平台实践:
+              - 课程信息: blog/year2/gisprac/index.md
 
-#           - GIS应用开发:
-#               - 课程信息: blog/year2/gisad/index.md
+          - GIS应用开发:
+              - 课程信息: blog/year2/gisad/index.md
           
-#           - GIS空间分析:
-#               - 课程信息: blog/year2/gissa/index.md
+          - GIS空间分析:
+              - 课程信息: blog/year2/gissa/index.md
 
-#           - 遥感概论:
-#               - 课程信息: blog/year2/rs/index.md
-#               - 笔记: blog/year2/rs/1.md
+          - 遥感概论:
+              - 课程信息: blog/year2/rs/index.md
+              - 笔记: blog/year2/rs/1.md
 
-#       - 辅修AI+X:
-#           - 前言: blog/ai/index.md
-#           - 人工智能引论: 
-#               - 课程信息: blog/ai/intro/index.md
-#               - 人工智能概述: blog/ai/intro/1.md
-#               - ai2: blog/ai/intro/2.md
-#               - ai3: blog/ai/intro/3.md
-#           - 人工智能数学基础:
-#               - 课程信息: blog/ai/math/index.md
-#               - 引言: blog/ai/math/0.md
-#           - 人工智能伦理与安全:
-#               - 课程信息: blog/ai/lunli/index.md
-#               - 1-人工智能伦理与安全概述: blog/ai/lunli/1.md
-#               - 2-人工智能伦理原则: blog/ai/lunli/2.md
-#               - 3-AI被赋予的“价值观”：是谁在塑造AI的价值准则？: blog/ai/lunli/3.md
-#               - 4-人工智能隐私保护: blog/ai/lunli/4.md
-#               - 5-人工智能公平性: blog/ai/lunli/5.md
-#               - 6-人工智能伦理道德: blog/ai/lunli/6.md
-#               - 7-人工智能安全问题概述: blog/ai/lunli/7.md
-#               - 8-人工智能对抗样本攻击与防御: blog/ai/lunli/8.md
-#               - 9-人工智能数据投毒和后门攻击与防御: blog/ai/lunli/9.md
-#               - 10-人工智能模型窃取攻击与防御: blog/ai/lunli/10.md
+      - 辅修AI+X:
+          - 前言: blog/ai/index.md
+          - 人工智能引论: 
+              - 课程信息: blog/ai/intro/index.md
+              - 人工智能概述: blog/ai/intro/1.md
+              - ai2: blog/ai/intro/2.md
+              - ai3: blog/ai/intro/3.md
+          - 人工智能数学基础:
+              - 课程信息: blog/ai/math/index.md
+              - 引言: blog/ai/math/0.md
+          - 人工智能伦理与安全:
+              - 课程信息: blog/ai/lunli/index.md
+              - 1-人工智能伦理与安全概述: blog/ai/lunli/1.md
+              - 2-人工智能伦理原则: blog/ai/lunli/2.md
+              - 3-AI被赋予的“价值观”：是谁在塑造AI的价值准则？: blog/ai/lunli/3.md
+              - 4-人工智能隐私保护: blog/ai/lunli/4.md
+              - 5-人工智能公平性: blog/ai/lunli/5.md
+              - 6-人工智能伦理道德: blog/ai/lunli/6.md
+              - 7-人工智能安全问题概述: blog/ai/lunli/7.md
+              - 8-人工智能对抗样本攻击与防御: blog/ai/lunli/8.md
+              - 9-人工智能数据投毒和后门攻击与防御: blog/ai/lunli/9.md
+              - 10-人工智能模型窃取攻击与防御: blog/ai/lunli/10.md
 
-#   - 收藏夹:
-#       - 一些有用的资料: blog/computerscience/cs.md
+  - 收藏夹:
+      - 一些有用的资料: blog/computerscience/cs.md
 
-#   - 💬:
-#       - ？: blog/sundries/index.md
+  - 💬:
+      - ？: blog/sundries/index.md
