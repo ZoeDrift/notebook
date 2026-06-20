@@ -119,8 +119,12 @@
 [2025-2026秋冬 全球气候与环境演变 回忆卷-A卷](https://www.cc98.org/topic/6407575) [@糖霜星星海 ](https://www.cc98.org/user/id/700674)  
 
 [2023-2024秋冬 全球气候与环境演变 回忆卷](https://www.cc98.org/topic/5805278) [@林中鹿 ](https://www.cc98.org/user/id/649423)  
-## 计算机地质仿真地震学
+## 计算机地质仿真
 \-
+## 地震学
+[2023-2024 秋冬 地震学回忆卷](https://www.cc98.org/topic/5798937) [@这人怎么了 ](https://www.cc98.org/user/id/645959)  
+
+[2022-2023学年秋冬学期《地震学》回忆卷](https://www.cc98.org/topic/5508535) [@林中鹿 ](https://www.cc98.org/user/id/649423)  
 ## 沉积学与古地理学
 [2024-2025春夏 沉积学与古地理学 回忆卷](https://www.cc98.org/topic/6221645)
 [@Muddyrain ](https://www.cc98.org/user/id/718712)  
