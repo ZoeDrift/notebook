@@ -1,11 +1,11 @@
-site_name: 做题区给我滚
+site_name: 某个入的笔记，然后做题区给我滚。
 site_url: https://zoedrift.github.io/notebook/
 repo_url: https://github.com/zoedrift/notebook
 repo_name: "ZoeDrift/notebook"
 site_author: zzz
 
 #版权信息
-copyright: 'Copyright &copy; 2025-2026 我还要说几遍做题区给我滚'
+copyright: 'Copyright &copy; 2025-2026 好想喝抹茶'
 
 theme:
   name: material
@@ -97,8 +97,14 @@ plugins:
       exclude:
         #- index.md
 
-  - timetoread:
+  - statistics:
+      pages_placeholder: '\{\{\s*pages\s*\}\}'
+      words_placeholder: '\{\{\s*words\s*\}\}' 
+      codes_placeholder: '\{\{\s*codes\s*\}\}'
+      page_statistics: True
+      page_read_time: True
       words_per_minute: 265
+      codelines_per_minute: 80
 
   - blog: #博客配置
       post_date_format: full #时间
