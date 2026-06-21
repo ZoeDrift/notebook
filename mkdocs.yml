@@ -259,6 +259,7 @@ nav:
               - 课程信息: blog/year2/gisad/index.md
           
           - gis空间分析:
+              - 课程信息: blog/year2/gissa/index.md
               - GIS空间分析导论: blog/year2/gissa/1.md
               - 空间分析概念框架: blog/year2/gissa/2.md
               - 探索性空间数据与空间统计: blog/year2/gissa/3.md
