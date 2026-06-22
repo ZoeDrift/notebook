@@ -260,19 +260,19 @@ nav:
           
           - gis空间分析:
               - 课程信息: blog/year2/gissa/index.md
-              - GIS空间分析导论: blog/year2/gissa/1.md
-              - 空间分析概念框架: blog/year2/gissa/2.md
-              - 探索性空间数据与空间统计: blog/year2/gissa/3.md
-              - 空间模式分析: blog/year2/gissa/4.md
-              - 空间相关分析: blog/year2/gissa/5.md
-              - 地理数据的回归分析: blog/year2/gissa/6.md
-              - 空间聚类分析: blog/year2/gissa/7.md
-              - 机器学习分类: blog/year2/gissa/8.md
-              - 时空分析: blog/year2/gissa/9.md
-              - 遥感深度学习中的目标检测与像素级分类: blog/year2/gissa/10.md
-              - 地理空间大数据分析: blog/year2/gissa/11.md
-              - 遥感影像超分辨率: blog/year2/gissa/12.md
-              - 历年卷: blog/year2/gissa/ks.md
+            #   - GIS空间分析导论: blog/year2/gissa/1.md
+            #   - 空间分析概念框架: blog/year2/gissa/2.md
+            #   - 探索性空间数据与空间统计: blog/year2/gissa/3.md
+            #   - 空间模式分析: blog/year2/gissa/4.md
+            #   - 空间相关分析: blog/year2/gissa/5.md
+            #   - 地理数据的回归分析: blog/year2/gissa/6.md
+            #   - 空间聚类分析: blog/year2/gissa/7.md
+            #   - 机器学习分类: blog/year2/gissa/8.md
+            #   - 时空分析: blog/year2/gissa/9.md
+            #   - 遥感深度学习中的目标检测与像素级分类: blog/year2/gissa/10.md
+            #   - 地理空间大数据分析: blog/year2/gissa/11.md
+            #   - 遥感影像超分辨率: blog/year2/gissa/12.md
+            #   - 历年卷: blog/year2/gissa/ks.md
 
           - 遥感概论:
               - 课程信息: blog/year2/rs/index.md
