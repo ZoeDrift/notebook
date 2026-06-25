@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action = "www.submit.com" method="post">
+        <label for="users">姓名：</label>
+        <input type="text" name="users" required>
+        <br>
+        <lable for="password">密码：</lable>
+        <input type="password" name="password" required>
+        <br>
+        <label for="sex">性别：</label>
+        <input type="radio" name = "sex" value="男" >男
+        <input type="radio" name = "sex" value="女" >女
+        <br>
+        <label for="education">学历</label>
+        <select name = "education" >
+            <option value="" selected disabled>请选择学历</option>
+            <option value="本科">本科</option>
+            <option value="大专">大专</option>
+        </select>
+        <br>
+        <label for="imformation">个人信息</label>
+        <br>
+        <textarea for="information" name="information" placeholder="请输入文本"></textarea>
+        <br>
+        <input type="button" name="submit" value="提交">
+
+    </form>
+</body>
+</html>

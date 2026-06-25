@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leaflet-Demo</title>
+
+    <!-- 引入Leaflet的css和js包 -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+    <!-- 设置leaflet地图容器大小与位置 -->
+    <style>
+      #map {
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- 作为地图容器的div标签 -->
+    <div id="map"></div>
+
+    <!-- Leaflet脚本 -->
+    <script>
+      var map = L.map("map").setView([76, 100], 4);
+
+      // 矢量底图
+      var tiandituVec = L.tileLayer(
+        "https://t0.tianditu.gov.cn/vec_c/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=vec&STYLE=default&TILEMATRIXSET=c&FORMAT=tiles&TILECOL={x}&TILEROW={y}&TILEMATRIX={z}&tk=your_token"
+      ).addTo(map);
+
+      // 地图注记
+      var tiandituCva = L.tileLayer(
+        "https://t0.tianditu.gov.cn/cva_c/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=cva&STYLE=default&TILEMATRIXSET=c&FORMAT=tiles&TILECOL={x}&TILEROW={y}&TILEMATRIX={z}&tk=your_token"
+      ).addTo(map);
+    </script>
+  </body>
+</html>
