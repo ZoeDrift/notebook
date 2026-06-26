@@ -262,6 +262,16 @@ nav:
               - 03 WebGIS开发基础：Web编程语言: blog/year2/gisad/3.md
               - 04 WebGIS开发基础：空间数据发布与服务: blog/year2/gisad/4.md
               - 05 主流前端地图框架介绍与搭建: blog/year2/gisad/5.md
+              - 06 Cesium三维地图: blog/year2/gisad/6.md
+              - 07 Cesium空间实体可视化: blog/year2/gisad/7.md
+              - 08 Cesium数据服务可视化与分析: blog/year2/gisad/8.md
+              - 09 Web应用前端开发框架: blog/year2/gisad/9.md
+              - 10 WebGIS数据处理导论: blog/year2/gisad/10.md
+              - 11 Web应用后端开发框架: blog/year2/gisad/11.md
+              - 12 几何对象与GeoPandas: blog/year2/gisad/12.md
+              - 13 GIS空间分析—矢量数据: blog/year2/gisad/13.md
+              - 14 GIS空间分析—栅格数据: blog/year2/gisad/14.md
+
           - gis空间分析:
               - 课程信息: blog/year2/gissa/index.md
               - GIS空间分析导论: blog/year2/gissa/1.md
@@ -280,7 +290,14 @@ nav:
 
           - 遥感概论:
               - 课程信息: blog/year2/rs/index.md
-              - 笔记: blog/year2/rs/1.md
+              - 绪论: blog/year2/rs/1.md
+              - 遥感物理基础: blog/year2/rs/2.md
+              - 遥感成像系统: blog/year2/rs/3.md
+              - 遥感图像处理: blog/year2/rs/4.md
+              - 遥感影像目视解译: blog/year2/rs/5.md
+              - 遥感影像计算机解译（分类）: blog/year2/rs/6.md
+              - 应用: blog/year2/rs/8.md
+              - 历年卷整理: blog/year2/rs/7.md
 
       - 辅修AI+X:
           - 前言: blog/ai/index.md
