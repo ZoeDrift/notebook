@@ -37,3 +37,8 @@ div.md-nav__source {
   margin: 0 !important;
   opacity: 0 !important;
 }
+
+strong {
+  color: #20857c;  /* 你想要的颜色 */
+  font-weight: bold;
+}
